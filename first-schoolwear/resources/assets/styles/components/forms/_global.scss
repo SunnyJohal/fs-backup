@@ -1,0 +1,91 @@
+li.gfield {
+  margin-bottom: 16px;
+}
+
+// Fields
+.gform_fields {
+  label {
+    margin-left: 0;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  textarea {
+    width: 100%;
+  }
+
+  textarea {
+    height: 150px;
+  }
+}
+
+// Hidden Fields
+.gform_wrapper input[type='hidden'],
+.gform_wrapper input.gform_hidden,
+.gform_wrapper .gform_hidden,
+.gform_wrapper .gf_hidden {
+  display: none !important;
+  max-height: 1px !important;
+  overflow: hidden;
+}
+
+// Description
+.gsection_title {
+  font-size: 2em;
+}
+
+.gfield_description {
+  line-height: 1.4;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+// Confirmation Message
+.gform_confirmation_wrapper {
+  background: #009688;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+.gform_confirmation_message {
+  color: rgba(white, 0.87);
+}
+
+// Validation Errors
+.validation_error {
+  background: #e57373;
+  padding: 10px 20px;
+  color: rgba(white, 0.87);
+  border-radius: 2px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.gfield_required {
+  color: #d32f2f;
+}
+
+.gfield_description.validation_message {
+  color: #d32f2f;
+  font-size: 12px;
+}
+
+// Misc
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+figure.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+}

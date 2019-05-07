@@ -1,0 +1,30 @@
+.alert {
+  position: relative;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #009688;
+  background: #009688;
+  border-radius: 2px;
+  color: rgba(white, 0.87);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  li {
+    color: rgba(white, 0.87);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  p:empty {
+    display: none;
+  }
+}

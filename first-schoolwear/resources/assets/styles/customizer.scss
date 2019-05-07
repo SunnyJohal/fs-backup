@@ -1,0 +1,24 @@
+// Import third party vendor libs.
+// @import './customizer/vendor/selectize';
+@import '~react-tabs/style/react-tabs.scss';
+@import '@material/switch/mdc-switch';
+@import '~rc-slider/assets/index.css';
+@import '~rc-tooltip/assets/bootstrap.css';
+
+@include mdc-switch-track-color(#0085ba);
+@include mdc-switch-knob-color(#0085ba);
+@include mdc-switch-focus-indicator-color(#0085ba);
+
+// Control components.
+@import './customizer/controls/global';
+@import './customizer/controls/background-position-control';
+@import './customizer/controls/checkbox-control';
+@import './customizer/controls/control-title';
+@import './customizer/controls/control-description';
+@import './customizer/controls/color-control';
+@import './customizer/controls/color-swatch-control';
+@import './customizer/controls/palette-control-swatch';
+@import './customizer/controls/persistence-control';
+@import './customizer/controls/searchable-select';
+@import './customizer/controls/slider-control';
+@import './customizer/controls/toggle-control';

@@ -1,0 +1,43 @@
+.wp-core-ui .tt-color-input--palette-trigger {
+  display: none;
+
+  &::before {
+    transform: rotate(0deg);
+    transition: all 0.2s;
+  }
+}
+
+.wp-core-ui .wp-picker-active + .tt-color-input--palette-trigger {
+  margin-top: 12px;
+  display: inline-block;
+
+  &::before {
+    content: '\f132';
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    font-size: 14px;
+    font-family: 'dashicons';
+    vertical-align: middle;
+    margin-right: 2px;
+    transition: all 0.2s;
+  }
+}
+
+.tt-color-input--palette-trigger.tt-color-input--palette-expanded {
+  &::before {
+    content: '\f158' !important;
+    top: -1px;
+  }
+
+  background: #eee;
+  border-color: #929793;
+  color: #32373c;
+  box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.outer-section-open.tt-palette-section-expanded {
+  .wp-full-overlay.expanded .wp-full-overlay-main {
+    opacity: 1;
+  }
+}

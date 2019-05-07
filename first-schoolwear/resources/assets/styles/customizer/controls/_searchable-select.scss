@@ -1,0 +1,17 @@
+// Single Input Styles
+// TODO: Fix the z-index issue.
+.customize-control.customize-control-searchable-select,
+.customize-control.customize-control-dropdown-pages {
+  // .selectize-control {
+  //   z-index: 20;
+  // }
+
+  .selectize-control.single .selectize-input {
+    background: #f7f7f7;
+    border-color: #ddd;
+  }
+
+  .selectize-dropdown.single {
+    border-color: #ddd;
+  }
+}

@@ -1,0 +1,24 @@
+.single-fs_school {
+  .gform_heading {
+    text-align: center;
+  }
+
+  .gform_body .gform_page_fields > ul.gform_fields {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  input[type='number'],
+  select {
+    height: 52px;
+  }
+
+  select {
+    padding: 0 15px;
+    background: #fff;
+  }
+
+  input[type='submit'] {
+    width: 100%;
+  }
+}

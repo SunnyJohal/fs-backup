@@ -1,0 +1,29 @@
+// Total Field
+.gfield_total {
+  text-align: center;
+}
+
+.ginput_container_total {
+  background: #e0f2f1;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  color: #009587;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+// Order Table
+.single-fs_school {
+  .gfield_html > table {
+    background: white;
+    border: 1px solid #dcdcdc;
+  }
+
+  .gfield_html table {
+    width: 100% !important;
+
+    tr {
+      padding: 8px 10px;
+    }
+  }
+}

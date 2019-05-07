@@ -1,0 +1,17 @@
+.admin-bar .mdc-toolbar--fixed {
+  top: 32px;
+
+  @media screen and (max-width: 782px) {
+    top: 46px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+
+// .admin-bar .mdc-toolbar-fixed-adjust {
+// margin-top: 96px;
+// }

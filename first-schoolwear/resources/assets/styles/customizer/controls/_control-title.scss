@@ -1,0 +1,21 @@
+.ControlTitle {
+  display: table;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.ControlTitle .customize-control-title,
+.ControlTitle .tt-customize-control-reset {
+  display: table-cell;
+}
+
+.ControlTitle .tt-customize-control-reset {
+  text-align: right;
+  font-size: 13px;
+}
+
+.ControlTitle .tt-customize-control-reset a {
+  cursor: pointer;
+  padding: 2px 0;
+  display: inline-block;
+}
